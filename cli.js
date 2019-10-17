@@ -16,7 +16,7 @@ const cli = meow(
   holds the royal office (is taggeed as latest).
 
   Usage
-    $ crown [<package>...] [options]
+    $ crown [<kingdom>...] [options]
       
   Options
     --verbose   Indulge in verbosity.

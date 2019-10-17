@@ -45,7 +45,7 @@ $ crown --help
   holds the royal office (is taggeed as latest).
 
   Usage
-    $ crown [<package>...] [options]
+    $ crown [<kingdom>...] [options]
 
   Options
     --verbose   Indulge in verbosity.
@@ -60,7 +60,7 @@ $ crown --help
     crown adheres to the the .npmrc file within your home directory.
 ```
 
-You can also use the package as a module like so:
+You can also use `crown` as a module like so:
 
 ```
 const crown = require("@boyeborg/crown");
