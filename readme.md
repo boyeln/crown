@@ -62,19 +62,19 @@ $ crown --help
 
 You can also use `crown` as a module like so:
 
-```
+```node
 const crown = require("@boyeborg/crown");
 
 const npmConfig = {
-  token: "secret"
+  token: "secret",
   /* other npm config, see https://github.com/npm/npm-registry-fetch */
 };
 const logger = {
-  verbose: (msg) => { /* Handle verbose message */ },
-  info: (msg) => { /* Handle info message */ },
-  warn: (msg) => { /* Handle warn message */ },
-  error: (msg) => { /* Handle error message */ }
+  verbose: (msg) => { /* Handle verbose messages */ },
+  info: (msg) => { /* Handle info messages */ },
+  warn: (msg) => { /* Handle warnings */ },
+  error: (msg) => { /* Handle errors */ }
 };
 
-crown("react", { token: "secret" }).then(() => console.log("done!"));
+crown("react", npmConfig, { logger, dryRun: false }).then(() => console.log("done!"));
 ```
