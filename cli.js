@@ -21,7 +21,7 @@ const cli = meow(
   Options
     --verbose   Indulge in verbosity.
     --dry-run   Run without updating.
-    --no-info   Hides info output.
+    --no-info   Hide info output.
     --no-warn   Hide warnings.
     --no-error  Hide errors.
     --help      Display this text.
