@@ -9,9 +9,9 @@
     "crown": "cli.js"
   },
   "scripts": {
-    "release:patch": "npm version patch && npm publish && git push --follow-tags",
-    "release:minor": "npm version minor && npm publish && git push --follow-tags",
-    "release:major": "npm version major && npm publish && git push --follow-tags"
+    "release:patch": "npm version patch && npm publish --access public && git push --follow-tags",
+    "release:minor": "npm version minor && npm publish --access public && git push --follow-tags",
+    "release:major": "npm version major && npm publish --access public && git push --follow-tags"
   },
   "repository": {
     "type": "git",
