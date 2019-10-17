@@ -15,7 +15,7 @@ exactly one queen (latest version) at any given point. Opposed to the usual
 aristocracy systems, the yongest (newest) monarch (version) should always rule
 (be tagged as latest).
 
-## What do you need this library for?
+## What do I need this library for?
 
 Not all queens gives the throne away when a younger monarch comes along. Hence,
 a system to regularly inspect the queen of a kingdom and abdicates her if she's
