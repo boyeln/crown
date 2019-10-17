@@ -1,0 +1,43 @@
+{
+  "name": "@boyeborg/crown",
+  "version": "1.0.0",
+  "description": "Ensures the youngest (newest) monarch (version) within kingdoms (packages) holds the royal office (is taggeed as latest).",
+  "author": "Boye Borg",
+  "license": "MIT",
+  "main": "index.js",
+  "bin": {
+    "crown": "cli.js"
+  },
+  "scripts": {
+    "release:patch": "npm version patch && npm publish && git push --follow-tags",
+    "release:minor": "npm version minor && npm publish && git push --follow-tags",
+    "release:major": "npm version major && npm publish && git push --follow-tags"
+  },
+  "repository": {
+    "type": "git",
+    "url": "ssh://git@github.com:boyeborg/crown.git"
+  },
+  "homepage": "https://github.com/boyeborg/crown",
+  "keywords": [
+    "npm",
+    "latest",
+    "tag",
+    "package",
+    "royalty",
+    "queen",
+    "majesty",
+    "crown",
+    "aristocracy",
+    "kingdom"
+  ],
+  "dependencies": {
+    "@boyeborg/carve": "^1.3.2",
+    "ini": "^1.3.5",
+    "meow": "^5.0.0",
+    "npm-registry-fetch": "^4.0.2",
+    "semver": "^5.5.0"
+  },
+  "devDependencies": {
+    "prettier": "^1.13.7"
+  }
+}
