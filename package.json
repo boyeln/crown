@@ -1,6 +1,6 @@
 {
   "name": "@boyeborg/crown",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Ensures the youngest (newest) monarch (version) within kingdoms (packages) holds the royal office (is taggeed as latest).",
   "author": "Boye Borg",
   "license": "MIT",
