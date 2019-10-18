@@ -12,7 +12,7 @@ neighboring kingdoms. Each kingdom (if it's a proper aristocracy) has one or
 more monarchs (the versions of the package). The reigning monarch (the version
 tagged with latest), is known as the Queen. Each kingdom (package) must have
 exactly one queen (latest version) at any given point. Opposed to the usual
-aristocracy systems, the yongest (newest) monarch (version) should always rule
+aristocracy systems, the youngest (newest) monarch (version) should always rule
 (be tagged as latest).
 
 ## What do I need this library for?
@@ -58,6 +58,15 @@ $ crown --help
 
   Configuration
     crown adheres to the the .npmrc file within your home directory.
+
+  Terminology
+    Each package is regarded as a kingdom, and its dependencies are its
+    neighboring kingdoms. Each kingdom (if it's a proper aristocracy) has one
+    or more monarchs (the versions of the package). The reigning monarch (the
+    version tagged with latest), is known as the Queen. Each kingdom (package)
+    must have exactly one queen (latest version) at any given point. Opposed to
+    the usual aristocracy systems, the youngest (newest) monarch (version)
+    should always rule (be tagged as latest).
 ```
 
 You can also use `crown` as a module like so:
