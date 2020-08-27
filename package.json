@@ -31,13 +31,13 @@
     "kingdom"
   ],
   "dependencies": {
-    "@boyeborg/carve": "^1.3.2",
+    "@boyeborg/carve": "^1.3.3",
     "ini": "^1.3.5",
-    "meow": "^5.0.0",
-    "npm-registry-fetch": "^4.0.2",
-    "semver": "^5.5.0"
+    "meow": "^7.1.0",
+    "npm-registry-fetch": "^8.1.4",
+    "semver": "^7.3.2"
   },
   "devDependencies": {
-    "prettier": "^1.13.7"
+    "prettier": "^2.1.1"
   }
 }
